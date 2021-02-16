@@ -1623,7 +1623,7 @@ x^4 + 4 * x^3 * y + 6 * x^2 * y^2 + 4 * x * y^3 + y^4
 </code></pre>
 <p>We can handle algebraic numbers, too.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/algebra/root.egi" rel="nofollow">Definition of <code>sqrt</code> in <code>root.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/algebra/root.egi" rel="nofollow">Definition of <code>sqrt</code> in <code>root.egi</code)</li>
 </ul>
 <pre><code>&gt; sqrt x
 sqrt x
@@ -1636,7 +1636,7 @@ x + sqrt y
 <a id="complex-numbers" class="anchor" href="#complex-numbers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Complex Numbers</h3>
 <p>The symbol <code>i</code> is defined to rewrite <code>i^2</code> to <code>-1</code> in Egison library.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/normalize.egi" rel="nofollow">Rewriting rule for <code>i</code> in <code>normalize.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/normalize.egi" rel="nofollow">Rewriting rule for <code>i</code> in <code>normalize.egi</code)</li>
 </ul>
 <pre><code>&gt; i * i
 -1
@@ -1649,7 +1649,7 @@ x^2 + 2 * x * y * i - y^2
 <a id="square-root" class="anchor" href="#square-root" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Square Root</h3>
 <p>The rewriting rule for <code>sqrt</code> is also defined in Egison library.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/normalize.egi" rel="nofollow">Rewriting rule for <code>sqrt</code> in <code>normalize.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/normalize.egi" rel="nofollow">Rewriting rule for <code>sqrt</code> in <code>normalize.egi</code)</li>
 </ul>
 <pre><code>&gt; sqrt 2 * sqrt 2
 2
@@ -1662,7 +1662,7 @@ x * sqrt 2 * sqrt y
 <a id="the-5th-roots-of-unity" class="anchor" href="#the-5th-roots-of-unity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The 5th Roots of Unity</h3>
 <p>The following is a sample to calculate the 5th roots of unity.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/algebra/equations.egi" rel="nofollow">Definition of <code>q-f'</code> in <code>equations.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/algebra/equations.egi" rel="nofollow">Definition of <code>q-f'</code> in <code>equations.egi</code)</li>
 </ul>
 <pre><code>&gt; qF' 1 1 (-1)
 ((-1 + sqrt 5) / 2, (-1 - sqrt 5) / 2)
@@ -1679,7 +1679,7 @@ x * sqrt 2 * sqrt y
 <a id="differentiation" class="anchor" href="#differentiation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Differentiation</h3>
 <p>We can implement differentiation easily in Egison.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/analysis/derivative.egi" rel="nofollow">Definition of <code>d/d</code> in <code>derivative.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/analysis/derivative.egi" rel="nofollow">Definition of <code>d/d</code> in <code>derivative.egi</code)</li>
 </ul>
 <pre><code>&gt; d/d (x ^ 3) x
 3 * x^2
@@ -1695,7 +1695,7 @@ exp (x * i) * i
 <p>The following sample executes Taylor expansion on Egison.
 We verify <a href="https://en.wikipedia.org/wiki/Euler%27s_formula" rel="nofollow">Euler's formula</a> in the following sample.</p>
 <ul>
-<li><a href="https://github.com/egison/egison/blob/master/lib/math/analysis/derivative.egi" rel="nofollow">Definition of <code>taylor-expansion</code> in <code>derivative.egi</code></a></li>
+<li><a href="https://github.com/egison/egison/blob/master/lib/math/analysis/derivative.egi" rel="nofollow">Definition of <code>taylor-expansion</code> in <code>derivative.egi</code)</li>
 </ul>
 <pre><code>&gt; take 8 (taylorExpansion (exp (i * x)) x 0)
 [1, x * i, - x^2 / 2, - x^3 * i / 6, x^4 / 24, x^5 * i / 120, - x^6 / 720, - x^7 * i / 5040]
